@@ -13,7 +13,7 @@ export default function page() {
             initial={{ y: -10, x: -250, opacity: 0 }}
             animate={{ y: 0, x: 0, opacity: 1 }}
             transition={{ duration: 0.4 }}
-            className="text-4xl p-2 cursor-default font-bold text-white">Pranav.</motion.h1>
+            className="text-4xl p-2 cursor-default font-bold text-white">Your Name.</motion.h1>
           <motion.p
             initial={{ x: -10, y: -180, opacity: 0 }}
             animate={{ x: 0, y: 0, opacity: 1 }}

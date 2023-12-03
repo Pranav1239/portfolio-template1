@@ -3,8 +3,8 @@
 export default function HeaderTextHero() {
     return (
         <>
-        <div className="h-[70vh] flex justify-center items-center">
-            <h1 className="text-6xl cursor-default lg:text-9xl font-bold">PRANAV</h1>
+        <div className="h-[50vh] flex justify-center items-center">
+            <h1 className="text-6xl cursor-default lg:text-9xl font-bold">LOREM</h1>
         </div>
         </>
     )

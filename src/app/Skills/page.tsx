@@ -123,7 +123,7 @@ export default  function page() {
                                         animate={{ x: 0, y: 0, opacity: 1 }}
                                         transition={{ duration: 1 }}
                                         key={skill.id} className="bg-transparent shadow-lg rounded-lg mx-4 p-4">
-                                        <div className="image-skill flex justify-center items-center">
+                                        {/* <div className="image-skill flex justify-center items-center">
                                             <Image
                                                 src={skill.image}
                                                 alt="ImageNotFound"
@@ -131,7 +131,7 @@ export default  function page() {
                                                 className=""
                                                 height={50}
                                             />
-                                        </div>
+                                        </div> */}
                                         <div className="p-4">
                                             <h2 className="text-xs lg:text-xl font-semibold mb-2">{skill.name}</h2>
                                         </div>
